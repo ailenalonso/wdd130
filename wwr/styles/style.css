@@ -183,6 +183,7 @@ main section img {
 .card-img, .mountains {
     width: 100%;
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
