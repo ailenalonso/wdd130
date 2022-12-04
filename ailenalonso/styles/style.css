@@ -51,7 +51,7 @@ nav a:hover {
     color:#6F8F72;
 }
 
- /* main CSS */
+ /* main home page CSS */
 .home-grid {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -170,6 +170,68 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+/* about me page CSS */
+.aboutme-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+.tittle-aboutme {
+    grid-column: 1/10;
+    grid-row: 1/2;
+    text-align: left;
+    margin-left: 35px;
+}
+.resume {
+    grid-column: 1/10;
+    grid-row: 2/5;
+    margin: 8px -16px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.resume p {
+    margin: auto;
+}
+
+.letsgo {
+    grid-column: 1/10;
+    grid-row: 5/10;
+}
+.row {
+    margin: 8px -16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.row,
+.row > .column {
+    padding: 8px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    padding: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    align-self: center;
+    margin: auto;
+}
+.resume-img {
+    float: left;
+    border-right: 25px solid #6F8F72 ;
+    border-top: 25px solid #6F8F72 ;
+}
+
 
 
 /* Contact Page CSS */
